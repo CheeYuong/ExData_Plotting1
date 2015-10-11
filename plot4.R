@@ -23,6 +23,6 @@ with(Final_Data,{
         lines(Final_Data$subset_DateTime,Final_Data$Sub_metering_2,col="red")
         lines(Final_Data$subset_DateTime,Final_Data$Sub_metering_3,col="blue")
         legend("topright", legend=labels,col=c("black","red","blue"),pch = "-")
-        plot(subset_DateTime, Global_reactive_power,type="l",xlab="datetime",ylab="Global_Reactive_Power")
+        plot(subset_DateTime, Global_reactive_power,type="l",xlab="datetime",ylab="Global_reactive_power")
 })
 dev.off()
